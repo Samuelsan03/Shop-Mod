@@ -12,3 +12,4 @@ Images of the mod to give you an idea of ​​what it looks like and how you ca
 <img width="953" height="431" alt="image" src="https://github.com/user-attachments/assets/087675c6-dc44-42de-a3b4-577e526d261e" />
 <img width="953" height="431" alt="image" src="https://github.com/user-attachments/assets/279dfd20-466d-4e08-b3b9-96ee531c910c" />
 
+To be able to modify your Shop Mod, read this wiki [read this wiki](https://github.com/Samuelsan03/Shop-Mod/wiki/How-to-modify-your-own-Shop-Mod)
