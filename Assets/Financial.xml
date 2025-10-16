@@ -1,0 +1,114 @@
+<ItemsData>
+    <Block>
+	    <Items Name="DirtBlock" ShopLevel="1" Money="18" ReturnMoney="9" />
+	    <Items Name="SoilBlock" ShopLevel="1" Money="18" ReturnMoney="9" />
+	    <Items Name="LimestoneBlock" ShopLevel="1" Money="40" ReturnMoney="30" />
+	    <Items Name="GraniteBlock" ShopLevel="1" Money="40" ReturnMoney="30" />
+	    <Items Name="BasaltBlock" ShopLevel="1" Money="80" ReturnMoney="50" />
+	    <Items Name="SandBlock" ShopLevel="1" Money="18" ReturnMoney="9" />
+	    <Items Name="SandstoneBlock" ShopLevel="1" Money="50" ReturnMoney="30" />
+	    <Items Name="GravelBlock" ShopLevel="1" Money="30" ReturnMoney="20" />
+	    <Items Name="ClayBlock" ShopLevel="1" Money="30" ReturnMoney="20" />
+	    <Items Name="SandBlock" ShopLevel="1" Money="30" ReturnMoney="20" />
+	    <Items Name="GrassBlock" ShopLevel="1" Money="18" ReturnMoney="9" />
+	    <Items Name="SnowBlock" ShopLevel="1" Money="10" ReturnMoney="5" />
+	    <Items Name="IceBlock" ShopLevel="1" Money="20" ReturnMoney="10" />
+	    <Items Name="CoalBlock" ShopLevel="3" Money="300" ReturnMoney="200" />
+	    <Items Name="StoneChunkBlock" ShopLevel="1" Money="30" ReturnMoney="20" />
+	    <Items Name="CoalChunkBlock" ShopLevel="2" Money="30" ReturnMoney="20" />
+	    <Items Name="SaltpeterChunkBlock" ShopLevel="1" Money="90" ReturnMoney="100" />
+	    <Items Name="SulphurChunkBlock" ShopLevel="1" Money="80" ReturnMoney="70" />
+	    <Items Name="GermaniumChunkBlock" ShopLevel="1" Money="90" ReturnMoney="80" />
+	    <Items Name="DiamondChunkBlock" ShopLevel="4" Money="500" ReturnMoney="400" />
+	    
+	    <Items Name="OakWoodBlock" ShopLevel="1" Money="50" ReturnMoney="40" />
+	    <Items Name="BirchWoodBlock" ShopLevel="1" Money="50" ReturnMoney="40" />
+	    <Items Name="SpruceWoodBlock" ShopLevel="1" Money="50" ReturnMoney="40" />
+	    <Items Name="TallGrassBlock" ShopLevel="1" Money="2" ReturnMoney="1" />
+	    <Items Name="SaplingBlock" ShopLevel="1" Money="10" ReturnMoney="5" />
+	    <Items Name="CactusBlock" ShopLevel="1" Money="20" ReturnMoney="10" />
+	    <Items Name="IvyBlock" ShopLevel="1" Money="10" ReturnMoney="5" />
+	    <Items Name="PumpkinBlock" ShopLevel="1" Money="50" ReturnMoney="40" />
+	    <Items Name="RottenPumpkinBlock" ShopLevel="1" Money="20" ReturnMoney="10" />
+	    <Items Name="CottonWadBlock" ShopLevel="1" Money="20" ReturnMoney="10" />
+	    <Items Name="SeaUrchinBlock" ShopLevel="1" Money="10" ReturnMoney="5" />
+	    <Items Name="StarfishBlock" ShopLevel="1" Money="10" ReturnMoney="5" />
+	    <Items Name="KelpBlock" ShopLevel="1" Money="10" ReturnMoney="5" />
+	    <Items Name="SeagrassBlock" ShopLevel="1" Money="10" ReturnMoney="5" />
+		<Items Name="WhiteFlowerBlock" ShopLevel="1" Money="5" ReturnMoney="5" />
+		<Items Name="PurpleFlowerBlock" ShopLevel="1" Money="5" ReturnMoney="5" />
+		<Items Name="RedFlowerBlock" ShopLevel="1" Money="5" ReturnMoney="5" />
+	    
+	    <Items Name="PlanksBlock" ShopLevel="1" Money="20" ReturnMoney="10" />
+	    <Items Name="CobblestoneBlock" ShopLevel="1" Money="10" ReturnMoney="5" />
+	    <Items Name="StoneBrickBlock" ShopLevel="1" Money="20" ReturnMoney="10" />
+	    <Items Name="BricksBlock" ShopLevel="1" Money="20" ReturnMoney="10" />
+	    <Items Name="GlassBlock" ShopLevel="1" Money="10" ReturnMoney="5" />
+	    <Items Name="MarbleBlock" ShopLevel="1" Money="10" ReturnMoney="5" />
+	    <Items Name="MalachiteBlock" ShopLevel="3" Money="50" ReturnMoney="40" />
+	    <Items Name="DiamondBlock" ShopLevel="8" Money="5000" ReturnMoney="4000" />
+	    <Items Name="IronBlock" ShopLevel="9" Money="2000" ReturnMoney="1000" />
+	    <Items Name="CopperBlock" ShopLevel="10" Money="1000" ReturnMoney="900" />
+	    <Items Name="SemiconductorBlock" ShopLevel="5" Money="500" ReturnMoney="300" />
+    </Block>
+	<Item>
+	    <Items Name="BrickBlock" ShopLevel="1" Money="10" ReturnMoney="5" />
+	    <Items Name="SnowballBlock" ShopLevel="1" Money="2" ReturnMoney="1" />
+	    <Items Name="WickerLampBlock" ShopLevel="1" Money="10" ReturnMoney="5" />
+	    <Items Name="TorchBlock" ShopLevel="1" Money="5" ReturnMoney="3" />
+	    <Items Name="StickBlock" ShopLevel="1" Money="5" ReturnMoney="3" />
+	    <Items Name="IronIngotBlock" ShopLevel="5" Money="600" ReturnMoney="500" />
+	    <Items Name="CopperIngotBlock" ShopLevel="3" Money="500" ReturnMoney="400" />
+	    <Items Name="RodBlock" ShopLevel="2" Money="20" ReturnMoney="10" />
+	    <Items Name="DispenserBlock" ShopLevel="2" Money="50" ReturnMoney="40" />
+		<Items Name="ChestBlock" ShopLevel="1" Money="65" ReturnMoney="55" />
+		<Items Name="CraftingTableBlock" ShopLevel="1" Money="5" ReturnMoney="5" />
+		<Items Name="FurnaceBlock" ShopLevel="1" Money="35" ReturnMoney="15" />
+		<Items Name="ChristmasTreeBlock" ShopLevel="1" Money="50" ReturnMoney="20" />
+	    <Items Name="SpikedPlankBlock" ShopLevel="2" Money="40" ReturnMoney="30" />
+	    <Items Name="WoodenPostedSignBlock" ShopLevel="1" Money="20" ReturnMoney="5" />
+	    <Items Name="IronPostedSignBlock" ShopLevel="1" Money="30" ReturnMoney="20" />
+	    <Items Name="SmallGunpowderKegBlock" ShopLevel="4" Money="100" ReturnMoney="90" />
+	    <Items Name="MediumGunpowderKegBlock" ShopLevel="5" Money="220" ReturnMoney="200" />
+	    <Items Name="LargeGunpowderKegBlock" ShopLevel="6" Money="400" ReturnMoney="300" />
+	    <Items Name="SmallIncendiaryKegBlock" ShopLevel="7" Money="120" ReturnMoney="100" />
+	    <Items Name="MediumIncendiaryKegBlock" ShopLevel="8" Money="240" ReturnMoney="220" />
+	    <Items Name="LargeIncendiaryKegBlock" ShopLevel="9" Money="480" ReturnMoney="400" />
+	    <Items Name="BoatBlock" ShopLevel="1" Money="20" ReturnMoney="10" />
+	    <Items Name="FeatherBlock" ShopLevel="1" Money="50" ReturnMoney="40" />
+	    <Items Name="StringBlock" ShopLevel="1" Money="70" ReturnMoney="60" />
+	    <Items Name="CanvasBlock" ShopLevel="1" Money="80" ReturnMoney="70" />
+	    <Items Name="GunpowderBlock" ShopLevel="1" Money="200" ReturnMoney="100" />
+	    <Items Name="PigmentBlock" ShopLevel="1" Money="20" ReturnMoney="10" />
+	    <Items Name="MagnetBlock" ShopLevel="1" Money="900" ReturnMoney="800" />
+	    <Items Name="FurBlock" ShopLevel="1" Money="70" ReturnMoney="60" />
+	    <Items Name="LeatherBlock" ShopLevel="1" Money="60" ReturnMoney="50" />
+	    <Items Name="SaddleBlock" ShopLevel="1" Money="100" ReturnMoney="70" />
+	    <Items Name="ExperienceBlock" ShopLevel="1" Money="50" ReturnMoney="40" />
+	    
+	    <Items Name="EmptyBucketBlock" ShopLevel="1" Money="300" ReturnMoney="200" />
+	    <Items Name="WaterBucketBlock" ShopLevel="1" Money="500" ReturnMoney="400" />
+	    <Items Name="MagmaBucketBlock" ShopLevel="1" Money="700" ReturnMoney="600" />
+	</Item>    
+    <Food>    
+	    <Items Name="FlourBlock" ShopLevel="1" Money="10" ReturnMoney="5" />
+	    <Items Name="DoughBlock" ShopLevel="1" Money="20" ReturnMoney="10" />
+	    <Items Name="RottenDoughBlock" ShopLevel="1" Money="10" ReturnMoney="5" />
+	    <Items Name="BreadBlock" ShopLevel="1" Money="50" ReturnMoney="40" />
+	    <Items Name="RottenBreadBlock" ShopLevel="1" Money="40" ReturnMoney="30" />
+	    <Items Name="RawBirdBlock" ShopLevel="2" Money="30" ReturnMoney="20" />
+	    <Items Name="CookedBirdBlock" ShopLevel="2" Money="40" ReturnMoney="30" />
+	    <Items Name="RottenBirdBlock" ShopLevel="2" Money="20" ReturnMoney="10" />
+	    <Items Name="RawMeatBlock" ShopLevel="1" Money="40" ReturnMoney="30" />
+	    <Items Name="CookedMeatBlock" ShopLevel="1" Money="50" ReturnMoney="60" />
+	    <Items Name="RottenMeatBlock" ShopLevel="1" Money="30" ReturnMoney="20" />
+	    <Items Name="RawFishBlock" ShopLevel="3" Money="50" ReturnMoney="40" />
+	    <Items Name="CookedFishBlock" ShopLevel="3" Money="60" ReturnMoney="30" />
+	    <Items Name="RottenFishBlock" ShopLevel="3" Money="40" ReturnMoney="30" />
+	    <Items Name="MilkBucketBlock" ShopLevel="4" Money="200" ReturnMoney="100" />
+	    <Items Name="RottenMilkBucketBlock" ShopLevel="4" Money="100" ReturnMoney="60" />
+	    <Items Name="PumpkinSoupBucketBlock" ShopLevel="4" Money="200" ReturnMoney="100" />
+	    <Items Name="RottenPumpkinSoupBucketBlock" ShopLevel="4" Money="100" ReturnMoney="60" />
+	    <Items Name="RottenEggBlock" ShopLevel="1" Money="50" ReturnMoney="50" />
+	</Food>
+</ItemsData>

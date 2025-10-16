@@ -1,0 +1,15 @@
+<Financial>
+	<ProjectTemplate Name="Project" Guid="85023bf8-1c90-4dd1-9442-e6c13691d078">
+		<MemberSubsystemTemplate Name="Financial" Guid="ffffffff-8888-0000-0000-000000000002" InheritanceParent="fefb9590-4972-4893-b02a-76063611b745">
+			<Parameter Name="Money" Guid="291dad2b-078a-4510-aba8-e53e64439660" Value="0" Type="double" />
+			<Parameter Name="ShopLevel" Guid="291dad2b-078a-4510-aba8-663e64439660" Value="1" Type="int" />			
+			<Parameter Name="Class" Guid="ffffffff-8888-0000-0000-000000000003" Value="Financial.SubsystemFinancial" Type="string"/>
+		</MemberSubsystemTemplate>
+    </ProjectTemplate>
+    <EntityTemplate Name="Player" Guid="4be6c1c5-d65d-4537-8a8b-a391969e6dc2">
+		<MemberComponentTemplate Name="Shop" Guid="b799ba34-de1b-4f62-a24c-314e4e1b25ca" InheritanceParent="81a44c6a-c30a-4f53-8d64-0c30aabab8f9">
+		    <Parameter Name="SlotsCount" Guid="ffffffff-8888-0000-0000-000000000120" Value="1" Type="int"/>		
+			<Parameter Name="Class" Guid="1df4e627-c959-4e6a-bfa2-b7ee3ef08669" Value="Financial.ComponentShop" Type="string" />
+		</MemberComponentTemplate>		 
+    </EntityTemplate>
+</Financial>

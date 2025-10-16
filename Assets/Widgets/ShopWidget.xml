@@ -1,0 +1,44 @@
+<ShopWidget xmlns="runtime-namespace:Game">
+  <BevelledRectangleWidget Size="614, 382" BevelSize="3" />
+  <LabelWidget CanvasWidget.Position="270, 14" Text="Shop" />
+  <LabelWidget CanvasWidget.Position="340, 14" Name="MoneyLabel" />
+  <LabelWidget CanvasWidget.Position="14, 14" Name="ShopLevelLabel" />  
+  <CanvasWidget CanvasWidget.Position="14, 50" Size="260, 240" >
+    <BevelledRectangleWidget BevelSize="-2" CenterColor="0, 0, 0, 0" />
+      <StackPanelWidget Direction="Vertical">
+         <LabelWidget Text="Purchase" HorizontalAlignment="Center" />
+         <CanvasWidget Size="0, 8"/>
+         <StackPanelWidget Direction="Horizontal" HorizontalAlignment="Center">
+           <LabelWidget Name="ChooseItemLabel" FontScale="0.8" VerticalAlignment="Center"/>
+	       <BlockIconWidget Name="Icon" Size="40, 40" />           
+         </StackPanelWidget>
+         <CanvasWidget Size="0, 8"/>         
+         <LabelWidget Name="ChooseItemCountLabel" HorizontalAlignment="Center" />
+         <CanvasWidget Size="0, 8"/>
+         <StackPanelWidget Direction="Horizontal" HorizontalAlignment="Center">         
+           <BevelledButtonWidget Name="ChooseButton" Text="Select Item" Style="{Styles/ButtonStyle_120x60}" />
+           <BevelledButtonWidget Name="ChooseCountButton" Text="Select Quantity" Style="{Styles/ButtonStyle_120x60}" />
+         </StackPanelWidget>
+         <BevelledButtonWidget Name="BuyButton" Text="Confirm Purchase" Style="{Styles/ButtonStyle_310x60}" />         
+      </StackPanelWidget>    
+  </CanvasWidget>
+  <CanvasWidget CanvasWidget.Position="300, 50" Size="300, 200" >
+    <BevelledRectangleWidget BevelSize="-2" CenterColor="0, 0, 0, 0" />
+      <StackPanelWidget Direction="Vertical">
+         <LabelWidget Text="Sell" HorizontalAlignment="Center" />
+         <CanvasWidget Size="0, 8"/>
+         <LabelWidget Name="ReturnMoneyLabel" HorizontalAlignment="Center" />
+         <CanvasWidget Size="0, 8"/>         
+         <StackPanelWidget Direction="Horizontal" HorizontalAlignment="Center">
+           <LabelWidget Text="Sell Item:" HorizontalAlignment="Center" VerticalAlignment="Center" />
+           <CanvasWidget Size="0, 8"/>               
+           <InventorySlotWidget Name="SoldSlot" />
+           <CanvasWidget Size="0, 8"/>           
+           <RectangleWidget Name="Logo" Size="50, 50" HorizontalAlignment="Center" VerticalAlignment="Center" Subtexture="{Textures/Logo}" />           
+         </StackPanelWidget>
+         <BevelledButtonWidget Name="SoldButton" Text="Sell Item" Style="{Styles/ButtonStyle_310x60}" />         
+      </StackPanelWidget>    
+  </CanvasWidget>
+  <BevelledButtonWidget CanvasWidget.Position="360, 250" Name="UpgradeShopButton" Text="Upgrade Shop" Style="{Styles/ButtonStyle_160x60}" />  
+  <GridPanelWidget CanvasWidget.Position="14, 312" Name="InventoryGrid" HorizontalAlignment="Center" />
+</ShopWidget>

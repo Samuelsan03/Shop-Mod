@@ -1,0 +1,29 @@
+<ChooseItemsDialog xmlns="runtime-namespace:Game">
+
+	<CanvasWidget Size="600, 300" ClampToBounds="true" HorizontalAlignment="Center" VerticalAlignment="Center">
+
+		<RectangleWidget FillColor="0, 0, 0, 255" OutlineColor="128, 128, 128, 128" OutlineThickness="2" />
+
+		<StackPanelWidget Direction="Vertical" HorizontalAlignment="Center" Margin="10, 0" IsVisible="true">
+		
+			<LabelWidget Text="Select Purchase Quantity" HorizontalAlignment="Center" Margin="0, 15" />
+			
+            <CanvasWidget Size="0, 100" />
+            
+			<StackPanelWidget Direction="Horizontal" HorizontalAlignment="Center" Margin="0, 2">
+                <BevelledButtonWidget Style="{Styles/ButtonStyle_Minus}" Name="RemoveCountButton" />
+		        <SliderWidget Name="CountSlider" Size="380, 30" HorizontalAlignment="Center" />
+                <BevelledButtonWidget Style="{Styles/ButtonStyle_Plus}" Name="AddCountButton" />                
+            </StackPanelWidget>
+            
+            <CanvasWidget Size="0, 40"/>         
+			
+			<UniformSpacingPanelWidget Direction="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10, 15">
+				<BevelledButtonWidget Style="{Styles/ButtonStyle_160x60}" HorizontalAlignment="Center" Name="OkButton" Text="Confirm" />
+			</UniformSpacingPanelWidget>
+
+		</StackPanelWidget>
+
+	</CanvasWidget>
+
+</ChooseItemsDialog>
