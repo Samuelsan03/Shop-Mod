@@ -28,7 +28,8 @@ namespace Financial
         public override void Update()
         {
             this.m_countSlider.Text = "Quantity:" + this.Count.ToString();
-            this.Count = Math.Clamp((int)this.m_countSlider.Value, 0, 1000000000);
+            int value = (int)this.m_countSlider.Value;
+            this.Count = value < 0 ? 0 : (value > 1000000000 ? 1000000000 : value);
             this.m_addcountButton.IsEnabled = (this.m_countSlider.Value < 1E+09f);
             this.m_removecountButton.IsEnabled = (this.m_countSlider.Value > 0f);
             bool isClicked = this.m_removecountButton.IsClicked;
@@ -36,16 +37,16 @@ namespace Financial
             if (flag)
             {
                 SliderWidget countSlider = this.m_countSlider;
-                float value = countSlider.Value;
-                countSlider.Value = value - 1f;
+                float value2 = countSlider.Value;
+                countSlider.Value = value2 - 1f;
             }
             bool isClicked2 = this.m_addcountButton.IsClicked;
             bool flag2 = isClicked2;
             if (flag2)
             {
                 SliderWidget countSlider2 = this.m_countSlider;
-                float value2 = countSlider2.Value;
-                countSlider2.Value = value2 + 1f;
+                float value3 = countSlider2.Value;
+                countSlider2.Value = value3 + 1f;
             }
             bool isClicked3 = this.m_okButton.IsClicked;
             bool flag3 = isClicked3;

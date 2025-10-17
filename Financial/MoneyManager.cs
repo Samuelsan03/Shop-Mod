@@ -32,8 +32,8 @@ namespace Financial
 			{
 				':'
 			});
-			Block block = BlocksManager.FindBlockByTypeName(array[0], true);
-			int num = (array.Length >= 2) ? int.Parse(array[1], CultureInfo.InvariantCulture) : 0;
+            Block block = BlocksManager.GetBlock(array[0]);
+            int num = (array.Length >= 2) ? int.Parse(array[1], CultureInfo.InvariantCulture) : 0;
 			return Terrain.MakeBlockValue(block.BlockIndex, 0, num);
 		}
 
