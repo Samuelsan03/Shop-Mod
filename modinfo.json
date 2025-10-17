@@ -1,11 +1,12 @@
 {
     "Name": "Shop",
-    "Version": "1.5.1",
-    "ApiVersion": "1.4",
+    "Version": "1.5.2",
+    "ApiVersion": "1.80",
     "Description": "Improved version of the shop mod, now in English with some bugs fixed. Useful mod for your survival world if you don't want to search for hard-to-find items - they will be available in the shop mod.",
     "ScVersion": "2.3.0.0",
     "Link": "https://m.schub.top/com/mods/preview/355",
     "Author": "npc-vs, Samuelsan03",
     "PackageName": "financial.mod",
     "Dependencies": []
+
 }
