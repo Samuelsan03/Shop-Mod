@@ -85,7 +85,8 @@
 	    <Items Name="LeatherBlock" ShopLevel="1" Money="60" ReturnMoney="50" />
 	    <Items Name="SaddleBlock" ShopLevel="1" Money="100" ReturnMoney="70" />
 	    <Items Name="ExperienceBlock" ShopLevel="1" Money="50" ReturnMoney="40" />
-	    
+        <Items Name="MusketBlock" ShopLevel="3" Money="155" ReturnMoney="95" />
+		
 	    <Items Name="EmptyBucketBlock" ShopLevel="1" Money="300" ReturnMoney="200" />
 	    <Items Name="WaterBucketBlock" ShopLevel="1" Money="500" ReturnMoney="400" />
 	    <Items Name="MagmaBucketBlock" ShopLevel="1" Money="700" ReturnMoney="600" />
