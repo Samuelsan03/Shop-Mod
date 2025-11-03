@@ -40,7 +40,7 @@ namespace Financial
 		{
 			bool flag = this.m_componentPlayer.ComponentGui.ModalPanelWidget is ShopWidget;
 			this.ShopButton.IsChecked = flag;
-            bool flag2 = this.ShopButton.IsClicked || Keyboard.IsKeyDownOnce((Key)49);
+            bool flag2 = this.ShopButton.IsClicked;
             bool flag3 = flag2;
 			if (flag3)
 			{
@@ -88,3 +88,4 @@ namespace Financial
 		public SubsystemFinancial m_subsystemFinancial;
 	}
 }
+
