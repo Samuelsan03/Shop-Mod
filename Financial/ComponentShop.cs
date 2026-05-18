@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using Engine;
 using Engine.Input;
 using Game;
@@ -7,26 +7,26 @@ using TemplatesDatabase;
 
 namespace Financial
 {
-	// Token: 0x02000004 RID: 4
 	public class ComponentShop : ComponentInventoryBase, IUpdateable
 	{
-		// Token: 0x17000001 RID: 1
-		// (get) Token: 0x06000007 RID: 7 RVA: 0x000024B8 File Offset: 0x000006B8
 		UpdateOrder IUpdateable.UpdateOrder
 		{
 			get
 			{
-				return this.m_componentPlayer.UpdateOrder;
+				return ((IUpdateable)this.m_componentPlayer).UpdateOrder;
 			}
 		}
 
-		// Token: 0x17000002 RID: 2
-		// (get) Token: 0x06000008 RID: 8 RVA: 0x000024D5 File Offset: 0x000006D5
-		// (set) Token: 0x06000009 RID: 9 RVA: 0x000024DD File Offset: 0x000006DD
+		float IUpdateable.FloatUpdateOrder
+		{
+			get
+			{
+				return (float)((IUpdateable)this).UpdateOrder;
+			}
+		}
+
 		public BitmapButtonWidget ShopButton { get; set; }
 
-		// Token: 0x17000003 RID: 3
-		// (get) Token: 0x0600000A RID: 10 RVA: 0x000024E8 File Offset: 0x000006E8
 		public int SoldSlotIndex
 		{
 			get
@@ -35,29 +35,21 @@ namespace Financial
 			}
 		}
 
-		// Token: 0x0600000B RID: 11 RVA: 0x00002504 File Offset: 0x00000704
 		public void Update(float dt)
 		{
 			bool flag = this.m_componentPlayer.ComponentGui.ModalPanelWidget is ShopWidget;
 			this.ShopButton.IsChecked = flag;
-            bool flag2 = this.ShopButton.IsClicked;
-            bool flag3 = flag2;
-			if (flag3)
+			if (this.ShopButton.IsClicked)
 			{
-				bool flag4 = flag;
-				bool flag5 = flag4;
-				if (flag5)
+				if (flag)
 				{
 					this.m_componentPlayer.ComponentGui.ModalPanelWidget = null;
+					return;
 				}
-				else
-				{
-					this.m_componentPlayer.ComponentGui.ModalPanelWidget = new ShopWidget(this, this.m_componentPlayer, this.m_subsystemFinancial);
-				}
+				this.m_componentPlayer.ComponentGui.ModalPanelWidget = new ShopWidget(this, this.m_componentPlayer, this.m_subsystemFinancial);
 			}
 		}
 
-		// Token: 0x0600000C RID: 12 RVA: 0x0000259C File Offset: 0x0000079C
 		public override void Load(ValuesDictionary valuesDictionary, IdToEntityMap idToEntityMap)
 		{
 			base.Load(valuesDictionary, idToEntityMap);
@@ -81,11 +73,7 @@ namespace Financial
 			}
 		}
 
-		// Token: 0x0400000C RID: 12
 		public ComponentPlayer m_componentPlayer;
-
-		// Token: 0x0400000D RID: 13
 		public SubsystemFinancial m_subsystemFinancial;
 	}
 }
-
