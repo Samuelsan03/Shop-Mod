@@ -1,0 +1,38 @@
+{
+  "FinancialModLoader": {
+    "1": "[Info] Inicializando el cargador de mods financieros"
+  },
+  "ContentWidgets": {
+    "ShopWidget": {
+      "1": "Tienda",
+      "2": "Saldo:",
+      "3": "Nivel de la tienda:",
+      "4": "Comprar",
+      "5": "Seleccionar artículo",
+      "6": "Seleccionar cantidad",
+      "7": "Confirmar compra",
+      "8": "Vendido",
+      "9": "Artículos vendidos:",
+      "10": "Vender artículo",
+      "11": "Mejorar tienda",
+      "12": "Monto estimado de venta:",
+      "13": "El nivel actual de la tienda es insuficiente para ver esto",
+      "14": "Monto estimado de venta: 0",
+      "15": "No se seleccionó ningún artículo para comprar",
+      "16": "Cantidad de compra:"
+    },
+    "ChooseItemsDialog": {
+      "1": "Seleccionar artículo",
+      "2": "Confirmar"
+    },
+    "ChooseItemsCountDialog": {
+      "1": "Cantidad:",
+      "2": "Confirmar"
+    },
+    "MoneyItem": {
+      "1": "Nombre del artículo:",
+      "2": "Precio del artículo:",
+      "3": "Precio de venta:"
+    }
+  }
+}

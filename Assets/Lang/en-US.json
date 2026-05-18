@@ -1,0 +1,38 @@
+{
+  "FinancialModLoader": {
+    "1": "[Info] Initializing Financial Mod Loader"
+  },
+  "ContentWidgets": {
+    "ShopWidget": {
+      "1": "Shop",
+      "2": "Balance:",
+      "3": "Shop Level:",
+      "4": "Buy",
+      "5": "Select Item",
+      "6": "Select Quantity",
+      "7": "Confirm Purchase",
+      "8": "Sold",
+      "9": "Sold Items:",
+      "10": "Sell Item",
+      "11": "Upgrade Shop",
+      "12": "Estimated Sale Amount:",
+      "13": "Current shop level is insufficient to view",
+      "14": "Estimated Sale Amount: 0",
+      "15": "No item selected for purchase",
+      "16": "Purchase Quantity:"
+    },
+    "ChooseItemsDialog": {
+      "1": "Select Item",
+      "2": "Confirm"
+    },
+    "ChooseItemsCountDialog": {
+      "1": "Quantity:",
+      "2": "Confirm"
+    },
+    "MoneyItem": {
+      "1": "Item Name:",
+      "2": "Item Price:",
+      "3": "Sale Price:"
+    }
+  }
+}
