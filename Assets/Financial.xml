@@ -86,6 +86,20 @@
 	    <Items Name="SaddleBlock" ShopLevel="1" Money="100" ReturnMoney="70" />
 	    <Items Name="ExperienceBlock" ShopLevel="1" Money="50" ReturnMoney="40" />
         <Items Name="MusketBlock" ShopLevel="3" Money="155" ReturnMoney="95" />
+		<Items Name="BulletBlock:0" ShopLevel="3" Money="90" ReturnMoney="85" />
+		<Items Name="BulletBlock:1" ShopLevel="3" Money="90" ReturnMoney="85" />
+		<Items Name="BulletBlock:2" ShopLevel="3" Money="90" ReturnMoney="85" />
+		<Items Name="BowBlock" ShopLevel="0" Money="15" ReturnMoney="15" />
+		<Items Name="ArrowBlock:0" ShopLevel="0" Money="20" ReturnMoney="15" />
+		<Items Name="ArrowBlock:1" ShopLevel="0" Money="20" ReturnMoney="15" />
+		<Items Name="ArrowBlock:2" ShopLevel="0" Money="20" ReturnMoney="15" />
+		<Items Name="ArrowBlock:3" ShopLevel="0" Money="20" ReturnMoney="15" />
+		<Items Name="ArrowBlock:4" ShopLevel="0" Money="20" ReturnMoney="15" />
+		<Items Name="ArrowBlock:8" ShopLevel="0" Money="20" ReturnMoney="15" />
+		<Items Name="CrossbowBlock" ShopLevel="3" Money="100" ReturnMoney="75" />
+		<Items Name="ArrowBlock:5" ShopLevel="3" Money="50" ReturnMoney="35" />
+		<Items Name="ArrowBlock:6" ShopLevel="3" Money="50" ReturnMoney="35" />
+		<Items Name="ArrowBlock:7" ShopLevel="3" Money="50" ReturnMoney="35" />
 		
 	    <Items Name="EmptyBucketBlock" ShopLevel="1" Money="300" ReturnMoney="200" />
 	    <Items Name="WaterBucketBlock" ShopLevel="1" Money="500" ReturnMoney="400" />
